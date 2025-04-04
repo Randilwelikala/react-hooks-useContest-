@@ -8,13 +8,13 @@ const BoxA  = ()=>{
     const[theme,setTheme] = useState('light');
 
     const toggleTheme = ()=>{
-        
+        setTheme((prevTheme)=>(prevTheme==='light' ? 'dark' : 'light'));
     }
     return(
         <div className="box">
             <h1>Box A</h1>
             <p>Name = {name}</p>
-            <NameContext.Provider value={{name}}/>
+            <NameContext.Provider value={{name,theme,toggleTheme}}/>
             <BoxB name={name}/>
             <NameContext.Provider/>
 
