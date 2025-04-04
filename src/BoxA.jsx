@@ -14,9 +14,9 @@ const BoxA  = ()=>{
         <div className="box">
             <h1>Box A</h1>
             <p>Name = {name}</p>
-            <NameContext.Provider value={{name,theme,toggleTheme}}/>
+            <NameContext.Provider value={{name,theme,toggleTheme}}>
                 <BoxB name={name}/>
-            <NameContext.Provider/>
+            </NameContext.Provider>
 
 
         </div>
