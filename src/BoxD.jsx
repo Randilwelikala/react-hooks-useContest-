@@ -10,6 +10,7 @@ const BoxD = ({name})=>{
             <p>name = {name}</p>
             <p>New Name = {newName}</p>
             <p>Current Theme - {theme}</p>
+            <button onClick={toggleTheme}>Toggle Theme</button>
 
         </div>
     )
