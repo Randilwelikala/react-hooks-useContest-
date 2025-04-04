@@ -15,7 +15,7 @@ const BoxA  = ()=>{
             <h1>Box A</h1>
             <p>Name = {name}</p>
             <NameContext.Provider value={{name,theme,toggleTheme}}/>
-            <BoxB name={name}/>
+                <BoxB name={name}/>
             <NameContext.Provider/>
 
 

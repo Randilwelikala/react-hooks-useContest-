@@ -9,7 +9,7 @@ const BoxD = ({name})=>{
             <h1>Box D</h1>
             <p>name = {name}</p>
             <p>New Name = {newName}</p>
-            <p>Current Theme - {theme}</p>
+            <p>Current Theme = {theme}</p>
             <button onClick={toggleTheme}>Toggle Theme</button>
 
         </div>
