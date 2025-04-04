@@ -6,7 +6,7 @@ const BoxD = ({name})=>{
     const {name:newName,theme,toggleTheme} = useContext(NameContext);
 
     const themeStyle = {
-        backgroundColor:theme ==='light'?'#fff':'#333',
+        backgroundColor:theme ==='light'?'#fff':'#000',
         color: theme === 'light'?'#000':'#fff',
 
     }
